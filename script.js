@@ -7,9 +7,7 @@ let objetoDeLabibliotecaTypewriter = new Typewriter(titulo, {
 
 objetoDeLabibliotecaTypewriter
     .typeString('Estefania Estrada')
-    .deleteChars(17)
-    .pauseFor(500)
-    .typeString('Desarrollo web')
-    .pauseFor(2500)
-    .deleteChars(14)
+    .pauseFor(1000)  
+    // .deleteChars(17)
+    // .pauseFor(1000)  
     .start();
